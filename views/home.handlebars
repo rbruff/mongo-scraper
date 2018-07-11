@@ -1,3 +1,4 @@
+{{!-- navbar --}}
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" href="/">Mongo Scraper</a>
   <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
@@ -7,14 +8,17 @@
 
   <div class="collapse navbar-collapse" id="navbarColor01">
     <ul class="navbar-nav mr-auto">
+      {{!-- Home nav btn --}}
       <li class="nav-item active">
         <a class="nav-link" href="/">Home
           <span class="sr-only">(current)</span>
         </a>
       </li>
+      {{!-- saved articles btn --}}
       <li class="nav-item">
         <a class="nav-link" href="/saved">Saved Articles</a>
       </li>
+      {{!-- scrape btn --}}
       <li class="nav-item">
         <a class="btn btn-danger scrape-new">SCRAPE NEW ARTICLES!</a>
       </li>
@@ -22,6 +26,7 @@
   </div>
 </nav>
 
+{{!-- jumbotron --}}
 <div class="jumbotron text-center">
   <div class="overlay">
   </div>
